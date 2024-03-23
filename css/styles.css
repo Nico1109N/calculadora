@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #fc9311;
+    --secundary-color: #f6f6f6;
+    --font-titles: 70px;
+    --font-subtitles: 32px;
+    --primary-tip:  font-family: "Space Grotesk", sans-serif; ;
+    --secundary-tip: font-family: "Domine", serif; ;
+}
+
+#cont-general{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cont-calculadora{
+    width: 400px;
+    height: 640px;
+    box-shadow: 2px 2px 2px 2px rgb(237, 236, 236);
+    border-radius: 40px;
+    background: white;
+}
+
+#cont-escritura{
+    width: 100%;
+    padding: 20px;
+}
+
+#cont-escritura input{
+    width: 100%;
+    font-size: var(--font-titles);
+}
+
+#cont-botones{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 22%;
+    padding: 20px;
+    font-size: var(--font-subtitles);
+    margin-bottom: 20px;
+}
+
+.btn.doble{
+    width: 48%;
+}
+
+#cont-botones button{
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(207, 206, 206);
+    border: none;
+
+}
+#cont-calculadora input{
+    border: none;
+    background: var(--secundary-color);
+    margin-top: 15px;
+}
+#sumar{
+    color: #fc9311;
+}
+#multiplicar{
+    color: #fc9311;
+}
+#restar{
+    color: #fc9311;
+}
+#igual{
+    color: #fc9311;
+}
+#dividir{
+    color: #fc9311;
+}
+
+.a{
+    position:absolute;
+    padding: 20px 80px;
+    font-size: 25px;
+    background: black;
+    border-radius: 20px ;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    margin-top: 800px;
+    margin-left: 10px;
+}
